@@ -1,12 +1,12 @@
 // Data arrays
 const loveReasons = [
-    "Porque tu sonrisa ilumina mis días",
     "Por tu inteligencia y creatividad",
+    "Porque sonrisa y tu risa",
     "Porque cuidas el planeta como mi corazón", 
     "Por tu dedicación en el trabajo",
     "Porque eres mi compañera maravillosa con Dios en medio",
     "Por tu pasión por la sostenibilidad",
-    "Porque haces que cada día sea especial",
+    "Porque haces que cada día contigo sea especial",
     "Por tu manera de ver la vida",
     "Porque eres simplemente increíble",
     "Porque te quiero infinitamente"

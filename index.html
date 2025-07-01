@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Gaby, mi Linda ❤️</title>
+    <link rel="stylesheet" href="style-new.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="hero-section">
+            <h1 class="hero-title">Para la Linda más maravillosa del mundo <span class="red-heart">❤️</span></h1>
+            <p class="hero-subtitle">Gaby Matiz, eres extraordinaria</p>
+            <div class="floating-hearts">
+                <span class="heart">💖</span>
+                <span class="heart">💕</span>
+                <span class="heart">💗</span>
+                <span class="heart">💖</span>
+                <span class="heart">💕</span>
+            </div>
+        </header>
+
+        <!-- Love Counter Section -->
+        <section class="card love-counter">
+            <div class="card__body">
+                <h2>Razones por las que te quiero tanto</h2>
+                <div class="counter-display">
+                    <span class="counter-number" id="loveCounter">1</span>
+                    <span class="counter-text">de ∞ razones</span>
+                </div>
+                <p id="loveReason">Porque tu sonrisa ilumina mis días</p>
+                <button class="btn btn--primary" id="incrementBtn">¡Dame otra razón!</button>
+            </div>
+        </section>
+
+        <!-- About Gaby Section -->
+        <section class="card about-gaby">
+            <div class="card__body">
+                <h2>¿Por qué Gaby es increíble?</h2>
+                <div class="qualities-grid">
+                    <div class="quality-card" data-message="Gaby, eres la ingeniera que diseñó mi felicidad 🏗️💕">
+                        <h3>👷‍♀️ Ingeniera Brillante</h3>
+                        <p>Tu mente analítica y creativa me fascina</p>
+                    </div>
+                    <div class="quality-card" data-message="Tu pasión por la sostenibilidad hace que mi cariño por ti también sea sostenible 🌱💚">
+                        <h3>🌿 Amante de la Sostenibilidad</h3>
+                        <p>Cuidas el planeta como cuidas mi corazón</p>
+                    </div>
+                    <div class="quality-card" data-message="En Ramo tienen suerte de tenerte, pero yo tengo más suerte de quererte 🏢❤️">
+                        <h3>👩‍💼 Experta en RRHH</h3>
+                        <p>Manejas recursos humanos como una pro</p>
+                    </div>
+                    <div class="quality-card" data-message="Linda, eres más brillante que cualquier idea verde ✨🌟">
+                        <h3>⭐ Simplemente Linda</h3>
+                        <p>Porque eres divina</p>
+                    </div>
+                </div>
+                <div class="quality-message" id="qualityMessage"></div>
+            </div>
+        </section>
+
+        <!-- Random Compliments Section -->
+        <section class="card compliments-section">
+            <div class="card__body">
+                <h2>Generador de cumplidos para Gaby</h2>
+                <div class="compliment-display">
+                    <p id="randomCompliment">¡Haz clic para recibir un cumplido especial!</p>
+                </div>
+                <button class="btn btn--secondary" id="complimentBtn">¡Sorpréndeme!</button>
+            </div>
+        </section>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
